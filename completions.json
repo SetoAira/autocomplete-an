@@ -1,0 +1,1131 @@
+{
+  "tag": [
+    "add_face name=$1",
+    "add_lay layer=$1 class=$2",
+    "auto_pager",
+    "autowc",
+    "break_macro",
+    "bracket2macro name=$1 text=$2",
+    "button pic=$1",
+    "call",
+    "ch text=$1",
+    "char2macro name=$1 char=$2",
+    "clear_event",
+    "clear_lay",
+    "clear_text",
+    "clearvar",
+    "clesrsysvar",
+    "close",
+    "copybookmark from=$1 to=$2",
+    "current layer=$1",
+    "dump_lay",
+    "dump_stack",
+    "dump_val",
+    "else",
+    "enable_event",
+    "er",
+    "erasebookmark place=$1",
+    "event key=$1",
+    "exist_html layer=$1",
+    "export",
+    "fadebgm time=$1 volume=$2",
+    "fadeoutbgm time=$1",
+    "fadeoutse time=$1",
+    "fadese time=$1 volume=$2",
+    "finish_trans",
+    "gesture_event",
+    "graph pic=$1",
+    "import",
+    "jump",
+    "lay layer=$1",
+    "let name=$1 text=$2",
+    "let_abs name=$1 text=$2",
+    "let_char_at name=$1 text=$2",
+    "let_face_frame name=$1 layer=$2",
+    "let_face_totalframes name=$1 layer=$2",
+    "let_html layer=$1",
+    "let_index_of name=$1 text=$2 val=$3",
+    "let_length name=$1 text=$2",
+    "let_replace name=$1 text=$2 reg=$3 val=$4",
+    "let_round name=$1 text=$2",
+    "let_search name=$1 text=$2 reg=$3",
+    "let_substr name=$1 text=$2",
+    "load place=$1",
+    "loadplugin fn=$1",
+    "log text=$1",
+    "mouse",
+    "navigate_to url=$1",
+    "pausevideo layer=$1",
+    "play_face layer=$1",
+    "playbgm fn=$1",
+    "playse fn=$1",
+    "plugin name=$1",
+    "pop_stack",
+    "rec_ch text=$1",
+    "rec_r",
+    "record_place",
+    "reload_script",
+    "reset_rec",
+    "resumevideo layer=$1",
+    "return",
+    "rewindvideo layer=$1",
+    "ruby text=$1",
+    "ruby2 t=$1 r=$2",
+    "save place=$1",
+    "seekvideo layer=$1 offset=$2",
+    "set_cancel_skip",
+    "set_focus to=$1",
+    "set_html layer=$1 text=$2",
+    "snapshot",
+    "span",
+    "stats",
+    "stop_all_se",
+    "stopbgm",
+    "stop_face layer=$1"
+    "stopfadese",
+    "stopse",
+    "tcy t=$1",
+    "title text=$1",
+    "toggle_full_screen",
+    "toggle_pousevideo layer=$1",
+    "trace text=$1",
+    "trans",
+    "unloadplugin fn=$1",
+    "unzip url=$1",
+    "update_check url=$1",
+    "volume",
+    "wa layer=$1",
+    "wait time=$1",
+    "wait_thread",
+    "waitclick",
+    "wb",
+    "wf",
+    "window",
+    "wl",
+    "ws",
+    "wt",
+    "wv layer=$1",
+    "xvgbuf"
+  ],
+  "attr": {
+    "af_alpha": {
+      "value": []
+    },
+    "af_color": {
+      "value": []
+    },
+    "af_ul": {
+      "value": []
+    },
+    "alpha": {
+      "value": []
+    },
+    "arg": {
+      "value": []
+    },
+    "arrive": {
+      "value": [
+        "true",
+        "false"
+      ]
+    },
+    "autohide": {
+      "value": [
+        "true",
+        "false"
+      ]
+    },
+    "b_alpha": {
+      "value": []
+    },
+    "b_color": {
+      "value": []
+    },
+    "b_height": {
+      "value": []
+    },
+    "b_left": {
+      "value": []
+    },
+    "b_pic": {
+      "value": []
+    },
+    "b_top": {
+      "value": []
+    },
+    "b_width": {
+      "value": []
+    },
+    "back_clear": {
+      "value": [
+        "true",
+        "false"
+      ]
+    },
+    "blendmode": {
+      "value": [
+        "add",
+        "alpha",
+        "darken",
+        "difference",
+        "erase",
+        "hardlight",
+        "invert",
+        "layer",
+        "lighten",
+        "multiply",
+        "overlay",
+        "screen",
+        "shader"
+      ]
+    },
+    "bottom": {
+      "value": []
+    },
+    "buf": {
+      "value": []
+    },
+    "buf2": {
+      "value": []
+    },
+    "bura_col": {
+      "value": []
+    },
+    "bura": {
+      "value": []
+    },
+    "c_plugin": {
+      "value": []
+    },
+    "cache_response": {
+      "value": [
+        "false",
+        "true"
+      ]
+    },
+    "call": {
+      "value": [
+        "true",
+        "false"
+      ]
+    },
+    "canskip": {
+      "value": [
+        "true",
+        "false"
+      ]
+    },
+    "cast": {
+      "value": [
+        "int",
+        "uint",
+        "bool",
+        "str",
+        "num"
+      ]
+    },
+    "center": {
+      "value": []
+    },
+    "centering": {
+      "value": [
+        "true"
+      ]
+    },
+    "char": {
+      "value": []
+    },
+    "check_for_update": {
+      "value": [
+        "true",
+        "false"
+      ]
+    },
+    "chk_overrow": {
+      "value": [
+        "false",
+        "true"
+      ]
+    },
+    "class": {
+      "value": [
+        "txt",
+        "grp",
+        "mov",
+        "htm"
+      ]
+    },
+    "clear_local_event": {
+      "value": [
+        "true",
+        "false"
+      ]
+    },
+    "clear": {
+      "value": [
+        "true",
+        "false"
+      ]
+    },
+    "clickse": {
+      "value": []
+    },
+    "clicksebuf": {
+      "value": []
+    },
+    "cond": {
+      "value": []
+    },
+    "config_fn": {
+      "value": []
+    },
+    "count": {
+      "value": [
+        "true",
+        "false"
+      ]
+    },
+    "cursor": {
+      "value": [
+        "auto",
+        "arrow",
+        "button",
+        "hand",
+        "ibeam"
+      ]
+    },
+    "del": {
+      "value": [
+        "true",
+        "false"
+      ]
+    },
+    "delay": {
+      "value": []
+    },
+    "dive": {
+      "value": []
+    },
+    "dont_sprit": {
+      "value": []
+    },
+    "download_progress": {
+      "value": [
+        "false",
+        "true"
+      ]
+    },
+    "download_update": {
+      "value": [
+        "false",
+        "true"
+      ]
+    },
+    "drag_h": {
+      "value": []
+    },
+    "drag_w": {
+      "value": []
+    },
+    "drag_x": {
+      "value": []
+    },
+    "drag_y": {
+      "value": []
+    },
+    "draggable": {
+      "value": [
+        "true",
+        "false"
+      ]
+    },
+    "dragmove_arg": {
+      "value": []
+    },
+    "dragmove_fn": {
+      "value": []
+    },
+    "dragmove_label": {
+      "value": []
+    },
+    "dx": {
+      "value": []
+    },
+    "dy": {
+      "value": []
+    },
+    "enabled": {
+      "value": [
+        "false",
+        "true"
+      ]
+    },
+    "end_ms": {
+      "value": []
+    },
+    "end": {
+      "value": []
+    },
+    "enterse": {
+      "value": []
+    },
+    "entersebuf": {
+      "value": []
+    },
+    "er": {
+      "value": [
+        "true",
+        "false"
+      ]
+    },
+    "event_at_down": {
+      "value": [
+        "true",
+        "false"
+      ]
+    },
+    "exist_err": {
+      "value": [
+        "false",
+        "true"
+      ]
+    },
+    "exp": {
+      "value": []
+    },
+    "f_alpha": {
+      "value": []
+    },
+    "f_color": {
+      "value": []
+    },
+    "f_ul": {
+      "value": []
+    },
+    "f2move": {
+      "value": []
+    },
+    "f2tap": {
+      "value": []
+    },
+    "f3tap": {
+      "value": []
+    },
+    "face_no": {
+      "value": []
+    },
+    "face": {
+      "value": []
+    },
+    "filter": {
+      "value": []
+    },
+    "flags": {
+      "value": []
+    },
+    "float": {
+      "value": [
+        "true",
+        "false"
+      ]
+    },
+    "fn": {
+      "value": []
+    },
+    "format": {
+      "value": [
+        "jpg",
+        "png"
+      ]
+    },
+    "frame": {
+      "value": []
+    },
+    "framerate": {
+      "value": []
+    },
+    "from": {
+      "value": []
+    },
+    "function": {
+      "value": [
+        "true",
+        "false"
+      ]
+    },
+    "global": {
+      "value": [
+        "true",
+        "false"
+      ]
+    },
+    "h_scroll": {
+      "value": []
+    },
+    "height": {
+      "value": []
+    },
+    "hf_alpha": {
+      "value": []
+    },
+    "hf_color": {
+      "value": []
+    },
+    "hf_ul": {
+      "value": []
+    },
+    "hint": {
+      "value": []
+    },
+    "href": {
+      "value": []
+    },
+    "id": {
+      "value": []
+    },
+    "index": {
+      "value": []
+    },
+    "ins_tag": {
+      "value": []
+    },
+    "install_update": {
+      "value": [
+        "true",
+        "false"
+      ]
+    },
+    "join": {
+      "value": [
+        "true",
+        "false"
+      ]
+    },
+    "key": {
+      "value": [
+        "activate",
+        "alternate",
+        "back",
+        "backquote",
+        "backslash",
+        "backspace",
+        "caps_lock",
+        "click",
+        "command",
+        "control",
+        "deactivate",
+        "delete",
+        "dowm",
+        "downwheel",
+        "end",
+        "enter_frame",
+        "enter",
+        "equal",
+        "escape",
+        "f1",
+        "f10",
+        "f11",
+        "f12",
+        "f2",
+        "f3",
+        "f4",
+        "f5",
+        "f6",
+        "f7",
+        "f8",
+        "f9",
+        "home",
+        "left",
+        "menu",
+        "middleclick",
+        "numpad_enter",
+        "option",
+        "orientation",
+        "page_down",
+        "page_up",
+        "right",
+        "rightcrick",
+        "search",
+        "shift",
+        "space",
+        "tab",
+        "up",
+        "upwheel"
+      ]
+    },
+    "label": {
+      "value": []
+    },
+    "layer": {
+      "value": []
+    },
+    "layout": {
+      "value": []
+    },
+    "leavese": {
+      "value": []
+    },
+    "leavesebuf": {
+      "value": []
+    },
+    "left": {
+      "value": []
+    },
+    "len": {
+      "value": [
+        "all"
+      ]
+    },
+    "light": {
+      "value": []
+    },
+    "loop": {
+      "value": [
+        "true",
+        "false"
+      ]
+    },
+    "max_col": {
+      "value": []
+    },
+    "max_row": {
+      "value": []
+    },
+    "middle": {
+      "value": []
+    },
+    "mouse_wheel_enabled": {
+      "value": [
+        "false",
+        "true"
+      ]
+    },
+    "name": {
+      "value": []
+    },
+    "offset": {
+      "value": []
+    },
+    "onclick": {
+      "value": []
+    },
+    "onend": {
+      "value": [
+        "warning",
+        "nop",
+        "enter",
+        "leave"
+      ]
+    },
+    "onenter": {
+      "value": []
+    },
+    "onleave": {
+      "value": []
+    },
+    "onsplit": {
+      "value": [
+        "warning",
+        "nop",
+        "enter"
+      ]
+    },
+    "page": {
+      "value": [
+        "fore",
+        "back",
+        "both"
+      ]
+    },
+    "paints_default_background": {
+      "value": [
+        "false",
+        "true"
+      ]
+    },
+    "path": {
+      "value": []
+    },
+    "pathdlg": {
+      "value": [
+        "true",
+        "false"
+      ]
+    },
+    "pic": {
+      "value": []
+    },
+    "place": {
+      "value": []
+    },
+    "pos": {
+      "value": [
+        "r",
+        "l",
+        "c"
+      ]
+    },
+    "quality": {
+      "value": []
+    },
+    "r_align": {
+      "value": [
+        "121",
+        "left",
+        "center",
+        "right",
+        "justify",
+        "even",
+        "1ruby"
+      ]
+    },
+    "r_arg": {
+      "value": []
+    },
+    "r_call": {
+      "value": [
+        "true",
+        "false"
+      ]
+    },
+    "r_color": {
+      "value": []
+    },
+    "r_fn": {
+      "value": []
+    },
+    "r_label": {
+      "value": []
+    },
+    "r_shift": {
+      "value": []
+    },
+    "r_size": {
+      "value": []
+    },
+    "r": {
+      "value": [
+        "false",
+        "true"
+      ]
+    },
+    "rec_page_break": {
+      "value": []
+    },
+    "record": {
+      "value": [
+        "false",
+        "true"
+      ]
+    },
+    "reg": {
+      "value": []
+    },
+    "reset_sound": {
+      "value": [
+        "false",
+        "true"
+      ]
+    },
+    "ret_ms": {
+      "value": []
+    },
+    "right": {
+      "value": []
+    },
+    "rotation": {
+      "value": []
+    },
+    "rule": {
+      "value": []
+    },
+    "s_bottom": {
+      "value": []
+    },
+    "s_right": {
+      "value": []
+    },
+    "scale_x": {
+      "value": []
+    },
+    "scale_y": {
+      "value": []
+    },
+    "smoothing": {
+      "value": [
+        "true",
+        "false"
+      ]
+    },
+    "start": {
+      "value": []
+    },
+    "stop": {
+      "value": [
+        "false",
+        "true"
+      ]
+    },
+    "swipe": {
+      "value": []
+    },
+    "t": {
+      "value": []
+    },
+    "target": {
+      "value": []
+    },
+    "text": {
+      "value": []
+    },
+    "time": {
+      "value": []
+    },
+    "to": {
+      "value": []
+    },
+    "top": {
+      "value": []
+    },
+    "touch": {
+      "value": [
+        "true",
+        "false"
+      ]
+    },
+    "url": {
+      "value": []
+    },
+    "use_cache": {
+      "value": [
+        "false",
+        "true"
+      ]
+    },
+    "vague": {
+      "value": []
+    },
+    "val": {
+      "value": []
+    },
+    "var_name": {
+      "value": []
+    },
+    "visible": {
+      "value": [
+        "true",
+        "false"
+      ]
+    },
+    "volume": {
+      "value": []
+    },
+    "w_scroll": {
+      "value": []
+    },
+    "wait": {
+      "value": []
+    },
+    "width": {
+      "value": []
+    },
+    "x": {
+      "value": []
+    },
+    "y": {
+      "value": []
+    }
+  },
+  "layout": [
+    "baselineShift",
+    "blockProgression",
+    "color",
+    "columnGap",
+    "device",
+    "embeddedCFF",
+    "fontFamily",
+    "fontLookup",
+    "fontSize",
+    "fontStyle",
+    "justificationRule",
+    "kerning",
+    "lineBreak",
+    "lineHeight",
+    "lineThrough",
+    "locale",
+    "paddingBottom",
+    "paddingLeft",
+    "paddingRight",
+    "paddingTop",
+    "renderingMode",
+    "rl",
+    "subscript",
+    "superscript",
+    "tb",
+    "textAlign",
+    "textDecoration",
+    "trackingRight",
+    "verticalAlign",
+    "whiteSpaceCollapse"
+  ],
+  "constant": {
+    "an": {
+      "next": [
+        "auto",
+        "chkFontMode",
+        "skip",
+        "tagL"
+      ]
+    },
+    "applicationDescriptor": {
+      "next": [
+        "fliname",
+        "version",
+        "versionLabel",
+        "versionNumber"
+      ]
+    },
+    "auto": {
+      "next": [
+        "enabled",
+        "msecLineWait_Kidoku",
+        "msecLineWait",
+        "msecPageWait_Kidoku",
+        "msecPageWait"
+      ]
+    },
+    "const.an": {
+      "next": [
+        "breakPluginName",
+        "dlgUserOK",
+        "eventArg",
+        "html.${1:id}",
+        "isFirstBoot",
+        "isKidoku",
+        "isRetina",
+        "js.${1:var}",
+        "key",
+        "last_page_text",
+        "lay.${1:layer}.${2:page}.height$0",
+        "lay.${1:layer}.${2:page}.visible$0",
+        "lay.${1:layer}.${2:page}.width$0",
+        "lay.${1:layer}.url$0",
+        "lay.${1:layer}",
+        "lay.${1:t_lay}.$0",
+        "mouse",
+        "onLauncher",
+        "plg.${1:plg}",
+        "plg.${1:plg}.visible$0",
+        "retinaRate",
+        "unzip.${1:file}.mes$0",
+        "unzip.${1:file}.state$0",
+        "update_check",
+        "vctCallStk.length",
+        "xmlConfig"
+      ]
+    },
+    "const": {
+      "next": [
+        "Date.getTime",
+        "flash",
+        "Stage",
+        "StageOrientationEvent",
+        "an"
+      ]
+    },
+    "desktop": {
+      "next": [
+        "NativeApplication.nativeApplication"
+      ]
+    },
+    "display": {
+      "next": [
+        "Stage.displayState",
+        "Stage.frameRate",
+        "Stage.fullScreenHeight",
+        "Stage.fullScreenWidth",
+        "Stage.stageHeight",
+        "Stage.stageWidth"
+      ]
+    },
+    "eventArg": {
+      "next": [
+        "html"
+      ]
+    },
+    "flash": {
+      "next": [
+        "desktop",
+        "display",
+        "system",
+        "utils"
+      ]
+    },
+    "fore": {
+      "next": [
+        "b_alpha",
+        "cursor_row",
+        "max_row"
+      ]
+    },
+    "html": {
+      "next": [
+        "id"
+      ]
+    },
+    "key": {
+      "next": [
+        "back",
+        "command",
+        "control",
+        "end",
+        "escape"
+      ]
+    },
+    "mouse": {
+      "next": [
+        "middle"
+      ]
+    },
+    "mp:const.an": {
+      "next": [
+        "me_call_scriptFn"
+      ]
+    },
+    "nativeApplication": {
+      "next": [
+        "applicationDescriptor",
+        "runtimeVersion",
+        "systemIdleMode"
+      ]
+    },
+    "save:an": {
+      "next": [
+        "break.height",
+        "break.width",
+        "doRecLog",
+        "userFnTail"
+      ]
+    },
+    "save:const.an": {
+      "next": [
+        "fnBgm",
+        "layer.${1:layer}.enabled$0",
+        "mesLayer",
+        "scriptFn",
+        "scriptIdx",
+        "sLog",
+        "sound.${1:buf}.fn$0",
+        "sound.${1:buf}.let_ms$0",
+        "sound.${1:buf}.volume$0"
+      ]
+    },
+    "skip": {
+      "next": [
+        "all",
+        "enabled"
+      ]
+    },
+    "Stage": {
+      "next": [
+        "deviceOrientation",
+        "mouseX",
+        "mouseY",
+        "orientation",
+        "supportedOrientations",
+        "supportsOrientationChange"
+      ]
+    },
+    "StageOrientationEvent": {
+      "next": [
+        "afterOrientation",
+        "beforeOrientation"
+      ]
+    },
+    "supportedOrientations": {
+      "next": [
+        "default",
+        "rotatedDown",
+        "rotatedLeft",
+        "rotatedRight"
+      ]
+    },
+    "sys:an": {
+      "next": [
+        "auto",
+        "skip.mode",
+        "tagCh"
+      ]
+    },
+    "sys:const.an": {
+      "next": [
+        "sound.${1:buf}.volume$0",
+        "ss.${1:file}.height$0",
+        "ss.${1:file}.size$0",
+        "ss.${1:file}.width$0",
+        "flash.display.Stage.nativeWindow.x",
+        "flash.display.Stage.nativeWindow.y"
+      ]
+    },
+    "sys:flash": {
+      "next": [
+        "media.SoundMixer.soundTransform.volume"
+      ]
+    },
+    "sys:TextLayer": {
+      "next": [
+        "Back.Alpha"
+      ]
+    },
+    "system": {
+      "next": [
+        "Capabilities.isDebugger",
+        "Capabilities.language",
+        "Capabilities.os",
+        "Capabilities.pixelAspectRatio",
+        "Capabilities.playerType",
+        "Capabilities.screenDPI",
+        "Capabilities.screenResolutionX",
+        "Capabilities.screenResolutionY",
+        "Capabilities.version"
+      ]
+    },
+    "tagCh": {
+      "next": [
+        "canskip",
+        "doWait_Kidoku",
+        "doWait",
+        "msecWait_Kidoku",
+        "msecWait"
+      ]
+    },
+    "tagL": {
+      "next": [
+        "enabled"
+      ]
+    },
+    "update_check": {
+      "next": [
+        "errorID",
+        "state",
+        "subErrorID"
+      ]
+    },
+    "utils": {
+      "next": [
+        "getTimer"
+      ]
+    },
+    "window": {
+      "next": [
+        "height",
+        "width"
+      ]
+    },
+    "xmlConfig": {
+      "next": [
+        "window"
+      ]
+    }
+  }
+}
