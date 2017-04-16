@@ -6,7 +6,7 @@
   "keywords": [
     "AIRNovel"
   ],
-  "repository": "https://github.com/atom/autocomplete-an",
+  "repository": "https://github.com/SetoAira/autocomplete-an",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
