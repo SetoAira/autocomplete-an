@@ -81,7 +81,7 @@
     "stats",
     "stop_all_se",
     "stopbgm",
-    "stop_face layer=$1"
+    "stop_face layer=$1",
     "stopfadese",
     "stopse",
     "tcy t=$1",
