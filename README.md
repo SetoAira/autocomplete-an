@@ -1,5 +1,9 @@
 # autocomplete-an package
 
-A short description of your package.
+Autocomplete package for AIRNovel.  
+AIRNovel用オートコンプリートパッケージです。
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+![screenshot](https://raw.githubusercontent.com/SetoAira/autocomplete-an-an/master/snapshot.gif)
+
+Tags(<>), attributes(a), values(v) and constants(c).  
+タグ(<>)、属性(a)、値(v)、組み込み定数・変数(c)を登録しています。
